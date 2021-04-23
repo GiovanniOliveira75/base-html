@@ -1,1 +1,77 @@
 /* Your code here (Remove this line) */
+
+/* Anatomia */
+h1 {
+    color: blue;
+    font-size: 60px;
+    background: gray;
+}
+
+/*
+- Selector
+- Declaration
+- Properties
+- Property Value
+*/
+
+
+/* Selectors */
+/* Conecta um elemento HTML com o CSS */
+
+/* Tipos */
+
+* {} /* Global Selector */
+
+h1, h2, section, div {} /* Element/Type selector */
+
+#box, #container {} /* ID selector */
+
+.text-white, .m-4 {} /* Class selector */
+
+
+/* Box Model */
+
+div {
+    position: relative;
+    background: red;
+    display: block;
+    border: 1px solid black;
+}
+
+
+/* Shorthand */
+
+/* Background properties */
+div {
+    background-color: #000;
+    background-image: url('images/bg.jpg');
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+
+/* Background shorthand */
+div {
+    background: #222 url('images/bg.jpg') no-repeat left top;
+}
+
+/* Font properties */
+h1 {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 1.2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Font shorthand */
+h1 {
+    font: italic bold 20px/1.2 Arial, sans-serif;
+}
+
+
+/* Funções */
+
+div {
+    color: rgb(255, 255, 255);
+    width: calc(100% - 10px);
+}
